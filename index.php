@@ -45,7 +45,7 @@ if (isset($_POST['contact_name']) && isset($_POST['contact_email']) && isset($_P
 	$mail->From = $contact_email;
 	$mail->FromName = $contact_name;
 	 
-	$mail->addAddress("joseph.mbassey2@gmail.com",$contact_name);
+	$mail->addAddress("egbo.thankgod@yahoo.com",$contact_name);
 	//$mail->addAddress("egbo.thankgod@yahoo.com","User 2");
 	 
 	//$mail->addCC($contact_email,"User 3");
