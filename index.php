@@ -64,7 +64,7 @@ if (isset($_POST['contact_name']) && isset($_POST['contact_email']) && isset($_P
 }
 
 ?>
-<form action="send-email.php" method="POST">
+<form action="index.php" method="POST">
 		Name:<br><input type="text" name="contact_name" style="width : 41%;"><br><br>
 		Email:<br><input type="text" name="contact_email" style="width : 41%;"><br><br>	
 		Subject:<br>
