@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Contact Form</title>
+		<title>Portfolio</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" type="text/css" href="newbootstrap.css">
@@ -45,7 +45,7 @@ if (isset($_POST['contact_name']) && isset($_POST['contact_email']) && isset($_P
 	$mail->From = $contact_email;
 	$mail->FromName = $contact_name;
 	 
-	$mail->addAddress("thankgodegbo@gmail.com",$contact_name);
+	$mail->addAddress("egbo.thankgod@yahoo.com",$contact_name);
 	//$mail->addAddress("egbo.thankgod@yahoo.com","User 2");
 	 
 	//$mail->addCC($contact_email,"User 3");
